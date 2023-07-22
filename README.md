@@ -70,10 +70,6 @@ text = padec.GenerateText(explain_packet=True, max_new_tokens=250)
 
 This function takes the same parameters as the `GenerateText` function for explaining tags.
 
-## Contribute
+## Notes
 
-Please feel free to fork this repository, make changes, submit pull requests, or just use the code for your own projects. If you find any bugs or have any feature requests, please open an issue in this repository.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+It's recommended to ensure you have sufficient disk space and RAM when using this package.
