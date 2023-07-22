@@ -52,7 +52,7 @@ tags = padec.GenerateTags(packet_hex_stream=packet_hex,
 
 This will output a dictionary with the generated tags and their corresponding scores.
 
-You can also pass `context_similarity_factor`=(default: 0), `output_words_ngram`=(default: 0), `uncased_lemmatization`=(default: True), `single_word_split`=(default: False), `output_filter_factor`=(default: 1) to control the generation of tags.
+You can also pass `context_similarity_factor`=(default: 0), `output_words_ngram`=(default: 0), `uncased_lemmatization`=(default: True), `single_word_split`=(default: False), `output_filter_factor`=(default: 1) to control the generation of tags. Refer to [BERTSimilar](https://github.com/rdpahalavan/BERTSimilar#find-similar-words) package for more details about these parameters.
 
 ### Generating Text
 
