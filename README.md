@@ -134,4 +134,4 @@ This network packet is an IPv4 packet with a length of 1480 bytes. The packet ha
 
 ## Notes
 
-It's recommended to ensure you have sufficient disk space and RAM when using this package.
+It's recommended to ensure you have sufficient disk space and GPU memory when using this package.
