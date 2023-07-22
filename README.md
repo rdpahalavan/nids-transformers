@@ -52,7 +52,7 @@ tags = padec.GenerateTags(packet_hex_stream=packet_hex,
 
 This will output a dictionary with the generated tags and their corresponding scores.
 
-You can also pass context_similarity_factor=(default: 0), output_words_ngram=(default: 0), uncased_lemmatization=(default: True), single_word_split=(default: False), output_filter_factor=(default: 1) to control the generation of tags.
+You can also pass `context_similarity_factor`=(default: 0), `output_words_ngram`=(default: 0), `uncased_lemmatization`=(default: True), `single_word_split`=(default: False), `output_filter_factor`=(default: 1) to control the generation of tags.
 
 ### Generating Text
 
@@ -62,7 +62,7 @@ You can generate a descriptive text explaining the generated tags:
 text = padec.GenerateText(explain_tags=True, max_new_tokens=250)
 ```
 
-You can control the randomness by passing a temperature value from 0 to 1, where 0 means less random and 1 means more random (default is temperature=0).
+You can control the randomness by passing a temperature value from 0 to 1, where 0 means less random and 1 means more random (default is `temperature=0`).
 
 You can also generate a descriptive text explaining the network packet:
 
