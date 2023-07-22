@@ -70,8 +70,6 @@ You can also generate a descriptive text explaining the network packet:
 text = padec.GenerateText(explain_packet=True, max_new_tokens=250)
 ```
 
-This function takes the same parameters as the `GenerateText` function for explaining tags.
-
 ## Demo
 
 ### Input
